@@ -1,10 +1,8 @@
 README.md: guessinggame.sh
-	nano README.md
-	#The-Unix-Workbench-Project
+	echo "#The-Unix-Workbench-Project" > README.md
 	
-	- "make" was run at:
-	  ** $(date) ** 
+	echo "- "make" was run at:" >> README.md
+	echo "  ** $(date) **" >> README.md 
 	
-	- The number of lines of code in *guessinggame.sh*:
-	  ** $(wc -l guessinggame.sh | egrep -o "[0-9]+") **
-	nano README.md
+	echo "- The number of lines of code in *guessinggame.sh*:" >> README.md
+	echo "  ** $(wc -l guessinggame.sh | egrep -o "[0-9]+") **" >> README.md
