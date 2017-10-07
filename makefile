@@ -1,5 +1,5 @@
 README.md: guessinggame.sh
-	touch README.md
+	nano README.md
 	#The-Unix-Workbench-Project >> README.md
 	
 	- "make" was run at: >> README.md
