@@ -7,4 +7,4 @@ README.md: guessinggame.sh
 	
 	- The number of lines of code in *guessinggame.sh*:
 	  ** $(wc -l guessinggame.sh | egrep -o "[0-9]+") **
-	
+	nano README.md	
